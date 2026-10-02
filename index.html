@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Makes the page fit phone screens (this is what "responsive" starts with) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abdul Muizz | Portfolio</title>
+  <meta name="description" content="Portfolio of Abdul Muizz, a student developer and creator.">
+
+  <!-- Free Google Fonts. If they fail to load, the fallback fonts below are used -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- =====================================================
+       CSS = how the page LOOKS (colours, fonts, layout)
+       ===================================================== -->
+  <style>
+    /* 1. COLOURS: change these values to re-theme the whole site */
+    :root {
+      --bg: #f7f9fc;         /* page background */
+      --card: #ffffff;       /* card background */
+      --ink: #14213d;        /* main text */
+      --muted: #5b6577;      /* softer text */
+      --accent: #3a5bff;     /* buttons and links */
+      --accent-ink: #ffffff; /* text on accent */
+      --pop: #ffc857;        /* highlight colour */
+      --line: #dfe5ef;       /* borders */
+    }
+    /* Dark theme: applied when <html data-theme="dark"> */
+    :root[data-theme="dark"] {
+      --bg: #0f1626; --card: #17213a; --ink: #eef2fb; --muted: #a3aec4;
+      --accent: #7b93ff; --accent-ink: #0f1626; --line: #2a3657;
